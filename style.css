@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+body,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    background-color: rgb(28, 184, 245);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header-name {
+    font-weight: 000px;
+    font-size: 22px;
+    margin: 0 10px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.header-logo {
+    width: 70px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.header-img {
+    width: 40px;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+}
+
+
+/* Footer */
+.footer {
+    background-color: rgb(28, 184, 245);
+    text-align: center;
+    padding: 3px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
