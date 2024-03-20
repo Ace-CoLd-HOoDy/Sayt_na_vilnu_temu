@@ -1,10 +1,31 @@
 h1,
 h2,
 h3,
-body,
 p {
     margin: 0;
 }
+
+h1,
+h2,
+h3 {
+    font-family: "Indie Flower", cursive;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    background-color: pink;
+}
+
 
 a {
     text-decoration: none;
@@ -17,7 +38,6 @@ a {
 
 /* Header */
 header {
-    display: flex;
     background-color: rgb(28, 184, 245);
 }
 
@@ -25,6 +45,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px 30px;
 }
 
 .header-wrap {
@@ -33,29 +54,372 @@ header {
 }
 
 .header-name {
-    font-weight: 000px;
+    font-weight: 900px;
     font-size: 22px;
-    margin: 0 10px;
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Protest Riot', sans-serif;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20px;
 }
 
 .header-logo {
-    width: 70px;
+    width: 100px;
     border-radius: 10px;
-    margin: 10px 0;
 }
 
 .header-img {
-    width: 40px;
+    width: 60px;
 }
 
 .header-list {
     display: flex;
     list-style: none;
+    gap: 30px;
 }
 
+/* Main */
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+/* Piano */
+.piano-wrap {
+    display: flex;
+    gap: 80px;
+}
+
+.piano-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.piano-text {
+    align-self: center;
+}
+
+.piano-span {
+    color: brown;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+/* Reading */
+.reading-wrap {
+    text-align: center;
+}
+
+.reading-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.reading-text {
+    padding-bottom: 20px;
+
+}
+
+.reading-span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.reading-img {
+    border-radius: 10px;
+    width: 800px;
+}
+
+/* Sports */
+.sports-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+/* Football */
+.football-wrap {
+    text-align: center;
+}
+
+.football-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.football-text {
+    padding-bottom: 20px;
+}
+
+.football-img {
+    height: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* Parkour */
+.parkour-wrap {
+    display: flex;
+    gap: 80px;
+}
+
+.parkour-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.parkour-text {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.parkour-video {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.backflip {
+    width: auto;
+    height: 500px;
+}
+
+/* Dance */
+.dance-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.dance-wrap {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dance-text {
+    text-align: center;
+}
+
+.dance-link {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 6, 1) 0%, rgba(32, 121, 9, 1) 35%);
+    display: block;
+    font-size: 20px;
+    -webkit-transition:
+        width 2s,
+        height 2s,
+        background-color 2s,
+        -webkit-transform 2s;
+    transition:
+        width 2s,
+        height 2s,
+        background-color 2s,
+        transform 2s;
+}
+
+
+.dance-link:hover {
+    background-color: #ffcccc;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.dance-span {
+    text-decoration: underline;
+    font-weight: 900;
+    color: black;
+}
+
+/* Drama */
+.drama-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.drama-wrap {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.drama-img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.drama-text {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* Sing */
+.sing-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.sing-wrap {
+    text-align: center;
+}
+
+.sing-video {
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.sing-img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.sing-text {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* Programming */
+.programming-wrap{
+    text-align: center;
+}
+
+.programming-title {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.programming-text {
+    padding-bottom: 20px;
+}
+
+.programming-img {
+    width: 450px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* School */
+.lessons-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Maths */
+.maths-wrap {
+    text-align: center;
+}
+
+.maths-title {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.maths-text {
+    padding-bottom: 20px;
+}
+
+.maths-img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+/* PE */
+.pe-wrap {
+    text-align: center;
+}
+
+.pe-title {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.pe-text {
+    padding-bottom: 20px;
+}
+
+.pe-img {
+    width: 450px;
+    border-radius: 20px;
+}
+
+/* IT */
+.it-wrap {
+    text-align: center;
+}
+
+.it-title {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.it-text {
+    padding-bottom: 20px;
+}
+
+.it-img {
+    width: 550px;
+    border-radius: 20px;
+}
+
+/* English */
+.english-wrap {
+    text-align: center;
+}
+
+.english-title {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.english-text {
+    padding-bottom: 20px;
+}
+
+.english-img {
+    width: 450px;
+    border-radius: 20px;
+}
+
+/* Dog */
+.dog-container{
+    padding-left: 150px;
+    text-align: center;
+}
+
+.dog-title {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.dog-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.dog-img{
+    width: 300px;
+}
+
+.two{
+    width: 400px;
+}
 
 /* Footer */
 .footer {
@@ -63,5 +427,4 @@ header {
     text-align: center;
     padding: 3px;
     font-size: 22px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
